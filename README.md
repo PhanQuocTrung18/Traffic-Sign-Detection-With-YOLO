@@ -28,7 +28,7 @@ This project is a system for detecting and classifying traffic signs. The detect
 
 ### How to Use the Dataset:
 **Traffic Sign Detection**
-
+```
 Traffic Sign Detection
 │─── train
 │    ├─── image
@@ -48,10 +48,11 @@ Traffic Sign Detection
 │    │    ├─── 000001.txt
 │    │    ├─── 000002.txt
 │    │    └─── ...
-Data Processing
-Convertyolo.py: Script to convert data to YOLO format
-Convertcsv.py: Script to convert data to CSV format
-Splitdata(-80%): Script to split data at an 80% ratio (Handle with large bouding boxes)
-Splitdata(-100%): Script to split the entire dataset (Handle with large bouding boxes)
-Data Augmentation
-RUNME.ipynb: Notebook for performing data augmentation
+```
+**Data Processing**
+- `Convertyolo.py`: Script to convert data to YOLO format
+- `Convertcsv.py`: Script to convert data to CSV format
+- `Splitdata(-80%)`: Script to split data at an 80% ratio (Handle with large bouding boxes)
+ -`Splitdata(-100%)`: Script to split the entire dataset (Handle with large bouding boxes)
+**Data Augmentation**
+- `RUNME.ipynb`: Notebook for performing data augmentation
